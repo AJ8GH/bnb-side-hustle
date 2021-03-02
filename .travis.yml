@@ -9,5 +9,5 @@ before script:
   - psql -U postgres -c 'CREATE DATABASE bnb_test;'
 
 script:
-  - bundle exec rake test:db:migrate
+  - bundle exec rake db:test:migrate
   - bundle exec rspec
