@@ -16,6 +16,15 @@ class MakersBnb < Sinatra::Base
     erb :index
   end
 
+  get '/sessions/new' do
+    erb :'sessions/new'
+  end
+
+  post '/sessions/new' do
+    user = User.authenticate(email: params[:email], password: params[:password])
+    sign_in(user)
+  end
+
   post '/users' do
     user = User.create(name: params[:name], email: params[:email],
       password: params[:password])
@@ -36,5 +45,15 @@ class MakersBnb < Sinatra::Base
     Space.create(name: params[:name], description: params[:description],
       price: params[:price])
     redirect '/spaces'
+  end
+
+  def sign_in(user)
+    if user
+      session[:id] = user.id
+      redirect '/spaces'
+    else
+      flash[:notice] = 'Incorrect Details'
+      redirect '/sessions/new'
+    end
   end
 end
