@@ -1,5 +1,7 @@
 # Makers BnB
 
+[![Build Status](https://travis-ci.com/AJ8GH/bnb-side-hustle.svg?branch=main)](https://travis-ci.com/AJ8GH/bnb-side-hustle)
+
 Side project of Makers BnB for experimentation and learning purposes
 
 ## Technologies used
@@ -35,7 +37,7 @@ so that I can revisit the site and access my account,
 I want to be able to sign-in
 
 As a user,
-so that I can keep my private information secure when using a public computer,
+so that I can keep my private information secure,
 I want to be able sign out of my account
 
 As a renter,

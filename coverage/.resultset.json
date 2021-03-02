@@ -8,6 +8,7 @@
       ],
       "/Users/adamjonas/Projects/makers/week-5/makers-bnb/makers_bnb.rb": [
         1,
+        1,
         null,
         1,
         1,
@@ -16,6 +17,7 @@
         1,
         12,
         null,
+        1,
         1,
         1,
         1,
@@ -102,6 +104,7 @@
         null,
         4,
         3,
+        null,
         2,
         null,
         null,
@@ -203,6 +206,28 @@
         null,
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/adamjonas/Projects/makers/week-5/makers-bnb/spec/features/signing_out_spec.rb": [
+        1,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
         null,
         null
       ],
@@ -339,6 +364,6 @@
         null
       ]
     },
-    "timestamp": 1614722160
+    "timestamp": 1614723339
   }
 }
