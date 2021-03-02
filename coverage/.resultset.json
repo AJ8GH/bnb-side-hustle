@@ -117,6 +117,7 @@
       ],
       "/Users/adamjonas/Projects/makers/week-5/makers-bnb/Rakefile": [
         1,
+        1,
         null,
         1,
         1,
@@ -173,6 +174,17 @@
         null,
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/adamjonas/Projects/makers/week-5/makers-bnb/spec/features/user_authentication_spec.rb": [
+        1,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
         null,
         null
       ],
@@ -264,6 +276,6 @@
         null
       ]
     },
-    "timestamp": 1614719505
+    "timestamp": 1614719926
   }
 }

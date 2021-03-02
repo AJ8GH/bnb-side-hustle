@@ -1,3 +1,4 @@
+require 'pg'
 require 'rake'
 
 namespace :db do
