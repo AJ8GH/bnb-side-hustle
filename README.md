@@ -2,7 +2,20 @@
 
 Side project of Makers BnB for experimentation and learning purposes
 
+## Technologies used
+-
+
+## Dependencies
+-
+
+## Getting started
+-
+
+## Usage
+-
+
 ## User stories
+-
 
 ### MVP
 ```
@@ -18,8 +31,8 @@ I would like to list a space
 ### Not MVP
 ```
 As a user,
-so that my information is recorded and I am contactable,
-I want to be able to return to my account to sign-in
+so that I can revisit the site and access my account,
+I want to be able to sign-in
 
 As a user,
 so that I can keep my private information secure when using a public computer,
@@ -82,16 +95,16 @@ Create new branch:
 ```shell
 git checkout main
 git pull
-git checkout -b <branch-name>
+git checkout -b <branch>
 ```
 
 Push changes to remote from new branch:
 ```shell
-git push --set-upstream origin <branch-name>
+git push -u origin <branch>
 ```
 
 Pull pair's changes from new branch:
 ```shell
-git checkout -b <branch-name>
-git branch --set-upstream-to=origin/<branch-name>
+git checkout -b <branch>
+git branch --set-upstream-to=origin/<branch>
 ```
