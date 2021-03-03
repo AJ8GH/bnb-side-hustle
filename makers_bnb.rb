@@ -27,6 +27,11 @@ class MakersBnb < Sinatra::Base
     sign_in(user)
   end
 
+  post '/sessions/destroy' do
+    session.clear
+    redirect '/'
+  end
+
   post '/users' do
     user = User.create(name: params[:name], email: params[:email],
       password: params[:password])

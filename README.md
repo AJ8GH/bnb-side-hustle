@@ -1,6 +1,6 @@
 # Makers BnB
 
-[![Build Status](https://travis-ci.com/AJ8GH/bnb-side-hustle.svg?branch=main)](https://travis-ci.com/AJ8GH/bnb-side-hustle)
+[![Build Status](https://travis-ci.com/AJ8GH/bnb-side-hustle.svg?branch=main)](https://travis-ci.com/AJ8GH/bnb-side-hustle) [![Coverage Status](https://coveralls.io/repos/github/AJ8GH/bnb-side-hustle/badge.svg?branch=signing-out)](https://coveralls.io/github/AJ8GH/bnb-side-hustle?branch=signing-out) [![Maintainability](https://api.codeclimate.com/v1/badges/dbe0b384547fb262f836/maintainability)](https://codeclimate.com/github/AJ8GH/bnb-side-hustle/maintainability)
 
 Side project of Makers BnB for experimentation and learning purposes
 

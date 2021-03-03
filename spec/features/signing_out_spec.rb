@@ -1,10 +1,10 @@
 feature 'signing out' do
-  xscenario 'return to index page after signing out' do
+  scenario 'return to index page after signing out' do
     User.create(name: 'Test', email: 'test@test.com', password: 'test123')
 
     visit '/'
     click_button 'Sign In'
-    fill_in :email, with: 'Test'
+    fill_in :email, with: 'test@test.com'
     fill_in :password, with: 'test123'
     click_button 'Sign In'
 

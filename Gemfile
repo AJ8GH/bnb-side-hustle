@@ -7,6 +7,8 @@ gem 'puma'
 gem 'rack'
 gem 'rake'
 gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'database_cleaner-active_record'
 gem 'sinatra-flash'
 
 group :test do
