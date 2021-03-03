@@ -1,5 +1,7 @@
 # Makers BnB
 
+[![Build Status](https://travis-ci.com/AJ8GH/bnb-side-hustle.svg?branch=main)](https://travis-ci.com/AJ8GH/bnb-side-hustle) [![Coverage Status](https://coveralls.io/repos/github/AJ8GH/bnb-side-hustle/badge.svg?branch=signing-out)](https://coveralls.io/github/AJ8GH/bnb-side-hustle?branch=signing-out) [![Maintainability](https://api.codeclimate.com/v1/badges/dbe0b384547fb262f836/maintainability)](https://codeclimate.com/github/AJ8GH/bnb-side-hustle/maintainability)
+
 Side project of Makers BnB for experimentation and learning purposes
 
 ## Technologies used
@@ -35,7 +37,7 @@ so that I can revisit the site and access my account,
 I want to be able to sign-in
 
 As a user,
-so that I can keep my private information secure when using a public computer,
+so that I can keep my private information secure,
 I want to be able sign out of my account
 
 As a renter,

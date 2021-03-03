@@ -1,17 +1,17 @@
 <% if @user %>
   <p>Hello <%= @user.name %>!</p>
+
+  <form action="sessions/destroy" method="post">
+    <input type="submit" name="Sign Out">
+  </form>
 <% end %>
 
-<center> <ul><% @spaces.each do |space| %>
-  <li> <%= space.name %> <br>
-       <%= space.description %> <br>
-       £<%= space.price %>
-  </li>
-  <% end %>
-</ul>
+<% @spaces.each do |space| %>
+    <p><%= space.name %></p><br>
+    <p><%= space.description %></p><br>
+    <p>£<%= space.price %></p>
+<% end %>
 
 <form action="/spaces/new" method="get">
   <input type="submit" name="Add a space" value="Add a space">
 </form>
-
-</center>

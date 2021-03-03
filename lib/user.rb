@@ -19,6 +19,7 @@ class User
         WHERE email = '#{email}';").first
       return unless result
       return unless result['password'] == password
+
       new(result['id'], result['name'], result['email'], result['password'])
     end
   end

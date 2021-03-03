@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'sinatra/flash'
 
 require_relative 'lib/database_connection'
 require_relative 'lib/user'
@@ -8,6 +9,7 @@ class MakersBnb < Sinatra::Base
   before { @user = User.find(id: session[:id]) if session[:id] }
 
   configure do
+    register Sinatra::Flash
     enable :sessions, :method_override
     set :session_secret, ENV['SESSION_SECRET']
   end
@@ -23,6 +25,11 @@ class MakersBnb < Sinatra::Base
   post '/sessions/new' do
     user = User.authenticate(email: params[:email], password: params[:password])
     sign_in(user)
+  end
+
+  post '/sessions/destroy' do
+    session.clear
+    redirect '/'
   end
 
   post '/users' do
