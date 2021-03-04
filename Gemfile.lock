@@ -124,6 +124,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   capybara
   coveralls
   database_cleaner-active_record

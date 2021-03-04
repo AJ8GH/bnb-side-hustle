@@ -1,7 +1,13 @@
 require 'pg'
 require 'rake'
+require 'sinatra/activerecord/rake'
+
 
 namespace :db do
+  task :load_config do
+    require_relative 'app/app'
+  end
+
   task :connect do
     if ENV['ENVIRONMENT'] == 'test'
       DatabaseConnection.setup(dbname: 'bnb_test')

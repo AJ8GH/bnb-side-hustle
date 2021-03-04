@@ -9,7 +9,7 @@ require 'capybara/rspec'
 require 'rspec'
 require 'rake'
 require_relative 'database_helper'
-require_relative '../app/controllers/app_controller'
+require_relative '../app/app'
 
 Capybara.app = MakersBnb
 
